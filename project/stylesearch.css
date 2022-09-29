@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.card{
+    background:#ffc489 ;
+    width: 220px;
+    margin: 10px;
+    border-radius: 20px 20px 0 0;
+}
+
+.card-image{
+    background-color: antiquewhite ;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+
+}
+
+.car-1 {
+    background-image: url('./360_F_171274414_CLZeIXWCMeMZLmLnNtixnXPfgxliVthY.jpg');
+}
+
+.car-2 {
+    background-image: url('./pic2.jpg') ;
+}
+
+.car-3 {
+    background-image: url('./istockphoto-1292982287-612x612.jpg');
+}
+
+.car-4 {
+    background-image: url('./pic4.gif');
+}
+
+
+.card h2 {
+    padding: 10px
+}
+
+.card p {
+    padding: 10px;
+
+}
+.card a{
+    background-color: rgb(235, 222, 222);
+    color: rgb(0, 0, 0);
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    max-width: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62, 62, 62);
+    color: beige;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+

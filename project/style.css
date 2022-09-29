@@ -1,0 +1,60 @@
+*{
+    margin-top: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background:#003580;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(ClipartKey_90099.png);
+    background-position: center;
+    background-size: cover ;
+    height: 109vh; */
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 1200px;
+    float: left;
+    height: 70px;
+}
+
+form{
+    background:#ffc489;
+    width: 600px;
+    height: 55px;
+    display: flex;
+
+}
+form input{
+    flex: 1;
+    border: white ;
+    outline: none;
+    margin: 10px 10px;
+}
+
+form button{
+    background: tomato;
+    padding: 10px 50px;
+    margin: 10px 10px;
+    border: none;
+    outline: none;
+    color: #ffc489;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+}
+form .fa-solid{
+    align-self: center;
+    padding: 10px 20px;
+    color: #777;
+}
